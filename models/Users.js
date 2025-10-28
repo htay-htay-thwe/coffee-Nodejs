@@ -18,7 +18,6 @@ const UserData = new Schema({
     },
     googleId: {
         type: String,
-        unique: true,
         required: false
     },
     image: {
