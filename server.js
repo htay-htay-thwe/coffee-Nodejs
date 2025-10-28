@@ -34,7 +34,7 @@ app.use("/api/coffee", AuthMiddleware, coffeeRoute)
 app.use("/api/order", AuthMiddleware, orderRoute)
 app.use("/api/user", userRoute)
 
-const mongoUrl = "mongodb+srv://htaythwe:htayhtaythwe2001@coffee.5whploo.mongodb.net/?retryWrites=true&w=majority&appName=Coffee"
+const mongoUrl = "mongodb://mongo:zOhSGYRlsJcVCxlmWCfDRwYnmbrQkiro@mongodb.railway.internal:27017"
 
 app.use("/uploads", express.static("uploads"));
 
